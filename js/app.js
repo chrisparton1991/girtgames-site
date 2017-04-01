@@ -8,6 +8,7 @@
     enableTabHighlighting();
     enableResponsiveMenuClosing();
     affixMainNavigation();
+    animateLogoBackground();
     animateLogo();
 
     function enableLinkScrolling() {
@@ -38,6 +39,12 @@
 
     function affixMainNavigation() {
         $('#main-nav').affix();
+    }
+
+    function animateLogoBackground() {
+        $('#logo-header')
+            .css('background-position', 0)
+            .animate({backgroundPosition: 100}, 5000, 'linear', animateLogoBackground);
     }
 
     function animateLogo() {

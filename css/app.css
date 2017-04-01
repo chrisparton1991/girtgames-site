@@ -62,6 +62,7 @@ hr.star-light {
 hr.star-light:after {
   background-color: #18bc9c;
   color: white;
+  border-radius: 50%;
 }
 
 hr.star-primary {
@@ -71,6 +72,7 @@ hr.star-primary {
 hr.star-primary:after {
   background-color: white;
   color: #2c3e50;
+  border-radius: 50%;
 }
 
 .img-centered {
@@ -79,7 +81,7 @@ hr.star-primary:after {
 
 header {
   text-align: center;
-  background: #233140;
+  background: #233140 url('../img/bank-note.svg') repeat;
   color: white;
 }
 

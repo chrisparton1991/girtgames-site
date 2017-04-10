@@ -8,8 +8,6 @@
     enableTabHighlighting();
     enableResponsiveMenuClosing();
     affixMainNavigation();
-    animateLogoBackground();
-    animateLogo();
 
     function enableLinkScrolling() {
         $('.page-scroll a').bind('click', function (event) {
@@ -39,28 +37,5 @@
 
     function affixMainNavigation() {
         $('#main-nav').affix();
-    }
-
-    function animateLogoBackground() {
-        $('#logo-header')
-            .css('background-position', 0)
-            .animate({backgroundPosition: 100}, 5000, 'linear', animateLogoBackground);
-    }
-
-    function animateLogo() {
-        var waves = [
-            $('#animated-logo #wave1'),
-            $('#animated-logo #wave2'),
-            $('#animated-logo #wave3')
-        ];
-
-        var currentWave = 0;
-        setInterval(function () {
-            for (var i = 0; i < waves.length; ++i) {
-                (i === currentWave) ? waves[i].removeClass('hidden') : waves[i].addClass('hidden');
-            }
-
-            currentWave = (currentWave + 1) % waves.length;
-        }, 500);
     }
 })(jQuery);

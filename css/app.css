@@ -38,11 +38,6 @@ html body {
   }
 }
 
-@keyframes waveA {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
 #animated-logo {
   max-height: 300px;
 }
@@ -144,10 +139,6 @@ header .intro-text .slogan {
 }
 
 @media (min-width: 768px) {
-  header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
-  }
   header .intro-text .name {
     font-size: 4.75em;
   }
@@ -220,7 +211,7 @@ header .intro-text .slogan {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 5px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;

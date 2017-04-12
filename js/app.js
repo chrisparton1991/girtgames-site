@@ -7,7 +7,6 @@
     enableLinkScrolling();
     enableTabHighlighting();
     enableResponsiveMenuClosing();
-    affixMainNavigation();
 
     function enableLinkScrolling() {
         $('.page-scroll a').bind('click', function (event) {
@@ -33,9 +32,5 @@
         $('.navbar-collapse ul li a').click(function () {
             $('.navbar-toggle:visible').click();
         });
-    }
-
-    function affixMainNavigation() {
-        $('#main-nav').affix();
     }
 })(jQuery);

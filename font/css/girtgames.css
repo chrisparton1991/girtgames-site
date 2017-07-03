@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'girtgames';
+  src: url('../font/girtgames.eot?52007334');
+  src: url('../font/girtgames.eot?52007334#iefix') format('embedded-opentype'),
+       url('../font/girtgames.woff2?52007334') format('woff2'),
+       url('../font/girtgames.woff?52007334') format('woff'),
+       url('../font/girtgames.ttf?52007334') format('truetype'),
+       url('../font/girtgames.svg?52007334#girtgames') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "girtgames";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0;
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+ 
+.icon-chevron-up:before { content: '\e806'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-bars:before { content: '\f0c9'; } /* '' */

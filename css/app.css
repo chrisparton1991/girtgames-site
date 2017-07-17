@@ -10,6 +10,16 @@ body a:hover {
     color: #18bc9c;
 }
 
+::selection {
+  background: #18bc9c;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #18bc9c;
+  color: #fff;
+}
+
 #maincontent {
   outline: none;
 }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bebas-Neue-Bold';
+    src:url('../font/bebas-neue/bebas-neue-bold.woff') format('woff'),
+        url('../font/bebas-neue/bebas-neue-bold.svg#bebas_neuebold') format('svg'),
+        url('../font/bebas-neue/bebas-neue-bold.eot'),
+        url('../font/bebas-neue/bebas-neue-bold.eot?#iefix') format('embedded-opentype'); 
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <style>
+    #all{opacity:.05;}
+    .st1{fill:url(#bomb);}
+    .st2{fill:#fff;}
+    .st3{fill:none;stroke:#fff;stroke-width:6.9;}
+    .st4{fill:url(#normal);}
+    .st6{fill:url(#lvlup);}
+    .st9{fill:#fff;fill-opacity:0.1;stroke:#fff;stroke-width:9.2;}
+  </style>
+  <g id="all">
+    <g>
+      <linearGradient id="bomb" gradientUnits="userSpaceOnUse" x1="384" y1="502" x2="384" y2="266">
+        <stop offset="0" stop-color="#E82372"/>
+        <stop offset="1" stop-color="#D82138"/>
+      </linearGradient>
+      <circle id="XMLID_118_" class="st1" cx="384" cy="384" r="118"/>
+      <path id="Cross" class="st2" d="M428 327.6c-3.6-3.5-9.2-3.5-12.6 0L384 359l-31.3-31.4c-3.5-3.5-9-3.5-12.5 0L327.7 340c-3.5 3.6-3.5 9.2 0 12.6L359 384 327.7 415c-3.5 3.5-3.5 9 0 12.5l12.5 12.5c3.5 3.5 9 3.5 12.5 0L384 409l31.3 31.2c3.5 3.5 9 3.5 12.5 0l12.5-12.5c3.5-3.5 3.5-9 0-12.5L409 384l31.4-31.3c3.5-3.5 3.5-9 0-12.5L428 327.6z"/>
+      <circle id="Time_Indicator_1_" class="st3" cx="384" cy="384" r="108.3"/>
+    </g>
+    <g>
+      <linearGradient id="normal" gradientUnits="userSpaceOnUse" x1="127.8" y1="502" x2="127.8" y2="265.7">
+        <stop offset="0" stop-color="#00C1FF"/>
+        <stop offset="1" stop-color="#07F"/>
+      </linearGradient>
+      <circle id="XMLID_47_" class="st4" cx="127.8" cy="383.8" r="118.2"/>
+      <circle id="Time_Indicator_10_" class="st3" cx="127.8" cy="383.8" r="108.5"/>
+    </g>
+    <linearGradient id="lvlup" gradientUnits="userSpaceOnUse" x1="383.9" y1="246" x2="383.9" y2="10">
+      <stop offset="0" stop-color="#35D316"/>
+      <stop offset="1" stop-color="#9BDD19"/>
+    </linearGradient>
+    <circle class="st6" cx="383.9" cy="128" r="118"/>
+    <circle id="Time_Indicator_3_" class="st3" cx="383.9" cy="128" r="108.3"/>
+    <circle id="Emitter_1_" class="st9" cx="127.9" cy="127.9" r="113.3"/>
+  </g>
+</svg>

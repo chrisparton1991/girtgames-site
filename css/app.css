@@ -161,6 +161,7 @@ header .intro-text .name {
 
 .navbar-custom .navbar-nav li a {
   color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-custom .navbar-nav li a:hover {

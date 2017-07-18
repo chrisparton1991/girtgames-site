@@ -1,3 +1,5 @@
+@import 'bootstrap';
+
 html body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -44,7 +46,7 @@ body a:hover {
 
 .wave-outline {
     opacity: 0;
-    animation: 1.5s blink step-end infinite;
+    animation: blink 1.5s step-end infinite;
 }
 
 #wave2 {
@@ -473,6 +475,7 @@ body a.btn-social {
   border-radius: 100%;
   line-height: 30px;
   border: 0;
+  background: #337ab7;
 }
 
 .portfolio-modal .modal-content {

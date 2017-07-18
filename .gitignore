@@ -1,0 +1,45 @@
+syntax: glob
+
+# Build systems & IDEs
+**/.gradle
+**/.idea
+**/.settings
+**/bin
+**/bower_components/
+**/build
+**/node_modules/
+*.css.map
+*.iml
+*.ipr
+*.iws
+*.orig
+.sass-cache
+.tmp/
+/docs/
+build/
+dist/
+maps/
+out
+**/classes
+
+# OS generated files
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.war
+*.zip
+
+# PEM files
+*.pem

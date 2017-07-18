@@ -20,6 +20,10 @@ body a:hover {
   color: #fff;
 }
 
+.text-white {
+    color: #fff;
+}
+
 #maincontent {
   outline: none;
 }
@@ -322,6 +326,19 @@ section.bg-navy {
   #poptap .portfolio-item {
     margin: 0 0 30px;
   }
+}
+
+.screenshots {
+  overflow-x: auto;
+  padding: 5px 0;
+  white-space: nowrap;
+}
+
+.screenshot {
+  width: 200px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 5px #000;
+  margin: 5px 10px;
 }
 
 footer {

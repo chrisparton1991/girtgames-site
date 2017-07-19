@@ -3,9 +3,9 @@ module.exports = {
 
     scripts: {
         src: [
-            'website/js/jquery-3.2.1.min.js',
-            'website/js/jquery.easing.min.js',
-            'website/js/bootstrap.min.js',
+            'website/js/responsive-nav.js',
+            'website/js/smooth-scroll.js',
+            'website/js/gumshoe.js',
             'website/js/site.js'
         ],
         dest: 'build/js'

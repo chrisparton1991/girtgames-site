@@ -17,25 +17,25 @@
     </head>
 
     <body id="page-top" class="index">
-        <nav id="main-nav" class="navbar navbar-fixed-top navbar-custom">
+        <nav id="main-nav" class="navbar navbar-fixed-top navbar-custom" data-gumshoe-header>
             <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu">
+                <div class="navbar-header">
+                    <button type="button" id="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu">
                         Menu <i class="icon-bars"></i>
                     </button>
                     <a class="navbar-brand" href="#page-top">GirtGames</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="nav-menu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="page-scroll">
-                            <a href="#poptap">PopTap</a>
+                    <ul data-gumshoe class="nav navbar-nav navbar-right">
+                        <li>
+                            <a data-scroll href="#poptap">PopTap</a>
                         </li>
-                        <li class="page-scroll">
-                            <a href="#about">About</a>
+                        <li>
+                            <a data-scroll href="#about">About</a>
                         </li>
-                        <li class="page-scroll">
-                            <a href="#contact">Contact</a>
+                        <li>
+                            <a data-scroll href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -191,8 +191,8 @@
         </footer>
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-        <div class="scroll-top page-scroll hidden-md hidden-lg">
-            <a class="btn btn-primary" href="#page-top">
+        <div class="scroll-top hidden-md hidden-lg">
+            <a class="btn btn-primary" data-scroll href="#page-top">
                 <i class="icon-chevron-up text-white"></i>
             </a>
         </div>

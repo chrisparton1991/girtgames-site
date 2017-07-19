@@ -7,6 +7,6 @@ var uglify = require('gulp-uglify');
 gulp.task('scripts', function() {  
     return gulp.src(config.scripts.src)
         .pipe(concat('site.js'))
-        // .pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest(config.scripts.dest));
 });

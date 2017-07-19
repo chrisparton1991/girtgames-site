@@ -70,6 +70,7 @@ body a:hover {
 }
 
 #animated-logo {
+  min-height: 240px;
   max-height: 300px;
 }
 
@@ -460,6 +461,7 @@ footer .footer-below {
 
 body a.btn-social {
     color: #fff;
+    text-decoration: none;
 }
 
 .scroll-top {
